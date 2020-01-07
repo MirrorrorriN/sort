@@ -7,5 +7,5 @@ import java.util.List;
  * Created by mirrordingjing @ 2020/1/7
  */
 public interface Sortable<T> {
-    public T[] sort(T[] arr, Comparator<? super T> cmp);
+    public <T> void sort(T[] arr, Comparator<? super T> cmp);
 }

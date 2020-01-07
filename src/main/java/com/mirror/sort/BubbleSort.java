@@ -10,11 +10,12 @@ import java.util.List;
 public class BubbleSort<T> implements Sortable<T> {
 
     @Override
-    public T[] sort(T[] arr, Comparator<? super T> cmp) {
+    public <T> void sort(T[] arr, Comparator<? super T> cmp) {
         int n=arr.length;
         for(int i=0;i<n-1;i++){
             //本次循环是否有过交换，无则表示已有序直接返回
             boolean flag=false;
+            //将最大值冒到尾部
             for(int j=0;j<n-1-i;j++){
                 if (cmp.compare(arr[j],arr[j+1])>0){
                     T tmp=arr[j+1];
@@ -24,9 +25,8 @@ public class BubbleSort<T> implements Sortable<T> {
                 }
             }
             if(!flag){
-                return arr;
+                return;
             }
         }
-        return arr;
     }
 }

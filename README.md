@@ -1,6 +1,6 @@
-* Sort Algorithm
+公式展示问题请安装 [MathJax chrome插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+* Sort Algorithm
 
 | Name | Best | Average | Worst | Memory | Stable |
 |  ----  | ----  | ----  |----  | ----  | ----  |

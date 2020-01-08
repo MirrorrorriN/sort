@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by mirrordingjing @ 2020/1/3
+ * Created by MirrorrorriN @ 2020/1/3
  */
 public class StaffSort {
     private static final List<String> names = Arrays.asList

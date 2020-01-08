@@ -8,9 +8,9 @@ import java.util.Comparator;
  * 常见排序中时间效率仅次于快排
  * 真实生产环境会使用的排序算法
  * 外部排序中使用，内部排序类似场景会使用快排
- * Created by mirrordingjing @ 2020/1/8
+ * Created by MirrorrorriN @ 2020/1/8
  */
-public class MergeSort<T> implements Sortable<T> {
+public class MergeSort implements Sortable {
 
     @Override
     public <T> void sort(T[] arr, Comparator<? super T> cmp) {

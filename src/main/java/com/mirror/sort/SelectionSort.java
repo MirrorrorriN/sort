@@ -4,9 +4,9 @@ import java.util.Comparator;
 
 /**
  * （直接）选择排序
- * Created by mirrordingjing @ 2020/1/7
+ * Created by MirrorrorriN @ 2020/1/7
  */
-public class SelectionSort<T> implements Sortable<T> {
+public class SelectionSort implements Sortable {
     @Override
     public <T> void sort(T[] arr, Comparator<? super T> cmp) {
         int n = arr.length;

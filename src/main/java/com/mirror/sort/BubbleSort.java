@@ -5,9 +5,9 @@ import java.util.List;
 
 /**
  * 冒泡排序
- * Created by mirrordingjing @ 2020/1/7
+ * Created by MirrorrorriN @ 2020/1/7
  */
-public class BubbleSort<T> implements Sortable<T> {
+public class BubbleSort implements Sortable {
 
     @Override
     public <T> void sort(T[] arr, Comparator<? super T> cmp) {
